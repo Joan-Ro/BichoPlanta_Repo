@@ -70,8 +70,8 @@
                 },
                 {
                     "name": "",
-                    "id": "0a978e12-14b7-4048-bd77-4fd260992426",
-                    "path": "<Keyboard>/space",
+                    "id": "079c1178-6948-4217-a833-db997ba9a538",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -82,7 +82,7 @@
                 {
                     "name": "",
                     "id": "48173f57-0b35-4c8a-a1a5-d8e3028e8b32",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
