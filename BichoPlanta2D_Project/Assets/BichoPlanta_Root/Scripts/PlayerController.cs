@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class FrogPlayer : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [Header("Movimiento")]
     public float moveSpeed = 5f;
@@ -13,7 +13,7 @@ public class FrogPlayer : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("Ataque")]
-    public GameObject lenguaCollider;  // Arrastra aquí el LenguaCollider
+    public GameObject lenguaCollider;  
 
     Rigidbody2D rb;
     Animator anim;
@@ -122,9 +122,7 @@ public class FrogPlayer : MonoBehaviour
         anim.SetTrigger("Hit");
     }
 
-    // === FUNCIONES PARA ANIMATION EVENTS (lengua) ===
-
-    public void ActivarLengua()
+        public void ActivarLengua()
     {
         if (lenguaCollider != null)
         {
