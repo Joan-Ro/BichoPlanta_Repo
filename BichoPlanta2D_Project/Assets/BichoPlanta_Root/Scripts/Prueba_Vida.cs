@@ -7,13 +7,28 @@ public class Prueba_Vida : MonoBehaviour
     public int vidasMaximas = 3;
     private int vidasActuales;
 
-    [Header("UI")]
-    public Image barraVida; // Arrastrar Life_bar (imagen roja)
+    [Header("UI Vida")]
+    public Image barraVida;
+
+    [Header("Movimiento")]
+    public float velocidad = 5f;
+    public float fuerzaSalto = 7f;
+
+    [Header("PickUps")]
+    public int monedas = 0;
+
+    [Header("UI Monedas")]
+    public Text textoMonedas;
+
+    private Rigidbody2D rb;
 
     void Start()
     {
         vidasActuales = vidasMaximas;
+        rb = GetComponent<Rigidbody2D>();
+
         ActualizarBarra();
+        ActualizarTextoMonedas();
     }
 
     void Update()
@@ -22,6 +37,36 @@ public class Prueba_Vida : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             RecibirDanio(1);
+        }
+
+        Movimiento();
+        Salto();
+    }
+
+    void Movimiento()
+    {
+        float movimiento = Input.GetAxisRaw("Horizontal");
+        rb.linearVelocity = new Vector2(movimiento * velocidad, rb.linearVelocity.y);
+    }
+
+    void Salto()
+    {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            if (Mathf.Abs(rb.linearVelocity.y) < 0.01f)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaSalto);
+            }
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PickUP"))
+        {
+            monedas++;
+            ActualizarTextoMonedas();
+            Destroy(other.gameObject);
         }
     }
 
@@ -46,6 +91,14 @@ public class Prueba_Vida : MonoBehaviour
         }
     }
 
+    void ActualizarTextoMonedas()
+{
+    if (textoMonedas != null)
+    {
+        textoMonedas.text = monedas.ToString();
+    }
+}
+
     void Morir()
     {
         Debug.Log("Jugador muerto");
@@ -53,5 +106,3 @@ public class Prueba_Vida : MonoBehaviour
         // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
-
-
