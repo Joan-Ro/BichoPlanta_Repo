@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 98c9c9df876b50d44942f865b2dde856
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5993182667690945438
+    second: LogoRana_0
+  - first:
+      213: -1215162264568500635
+    second: LogoRana_1
+  - first:
+      213: -682374272905197745
+    second: LogoRana_2
+  - first:
+      213: -1819740834275607968
+    second: LogoRana_3
+  - first:
+      213: -8455395023037724075
+    second: LogoRana_4
+  - first:
+      213: -79384629759513896
+    second: LogoRana_5
+  - first:
+      213: 4864078843532631946
+    second: LogoRana_6
+  - first:
+      213: 2788504572592729761
+    second: LogoRana_7
+  - first:
+      213: 5519239454535147862
+    second: LogoRana_8
+  - first:
+      213: -9147289239679634460
+    second: LogoRana_9
+  - first:
+      213: -2234832615201465923
+    second: LogoRana_10
+  - first:
+      213: 5980370136647888524
+    second: LogoRana_11
+  - first:
+      213: 4214796819585916884
+    second: LogoRana_12
+  - first:
+      213: -405835761188828068
+    second: LogoRana_13
+  - first:
+      213: -5837082654919808980
+    second: LogoRana_14
+  - first:
+      213: -7911427943822844501
+    second: LogoRana_15
+  - first:
+      213: -4605044501113338523
+    second: LogoRana_16
+  - first:
+      213: 6843561588914428365
+    second: LogoRana_17
+  - first:
+      213: 6037865891216431737
+    second: LogoRana_18
+  - first:
+      213: -5073354204543114735
+    second: LogoRana_19
+  - first:
+      213: -9173644132792716072
+    second: LogoRana_20
+  - first:
+      213: 8743479167397550183
+    second: LogoRana_21
+  - first:
+      213: 2461262836215897227
+    second: LogoRana_22
+  - first:
+      213: -3653395789141562861
+    second: LogoRana_23
+  - first:
+      213: -1575315357754440793
+    second: LogoRana_24
+  - first:
+      213: 4443959622055987161
+    second: LogoRana_25
+  - first:
+      213: -282265273200448787
+    second: LogoRana_26
+  - first:
+      213: -3315019658175890847
+    second: LogoRana_27
+  - first:
+      213: -7060655964754303267
+    second: LogoRana_28
+  - first:
+      213: -2166378522509211905
+    second: LogoRana_29
+  - first:
+      213: 4356242461380424590
+    second: LogoRana_30
+  - first:
+      213: -2502372625046824496
+    second: LogoRana_31
+  - first:
+      213: -8426970016624082921
+    second: LogoRana_32
+  - first:
+      213: 484864771663760183
+    second: LogoRana_33
+  - first:
+      213: -6182967551074527963
+    second: LogoRana_34
+  - first:
+      213: 5448038816500639266
+    second: LogoRana_35
+  - first:
+      213: -5944415378220951581
+    second: LogoRana_36
+  - first:
+      213: 6759511019897547467
+    second: LogoRana_37
+  - first:
+      213: -6725763416594186216
+    second: LogoRana_38
+  - first:
+      213: 6599569914170727069
+    second: LogoRana_39
+  - first:
+      213: 8309258017952946101
+    second: LogoRana_40
+  - first:
+      213: 8612367375218985657
+    second: LogoRana_41
+  - first:
+      213: -6765211191147471821
+    second: LogoRana_42
+  - first:
+      213: -4789887363772883483
+    second: LogoRana_43
+  - first:
+      213: 8814030424553285994
+    second: LogoRana_44
+  - first:
+      213: 4143409987364120343
+    second: LogoRana_45
+  - first:
+      213: 1493831800885860978
+    second: LogoRana_46
+  - first:
+      213: -4076602182692245556
+    second: LogoRana_47
+  - first:
+      213: -576025958773062982
+    second: LogoRana_48
+  - first:
+      213: 7760019032788236604
+    second: LogoRana_49
+  - first:
+      213: 2738588891165465571
+    second: LogoRana_50
+  - first:
+      213: 8077898955905306738
+    second: LogoRana_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoRana_0
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 824
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b2fbd02ef0c2350800000000000000
+      internalID: 5993182667690945438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_1
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 824
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e6febcb50e22fe0800000000000000
+      internalID: -1215162264568500635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_2
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 782
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47ce93d638b786f0800000000000000
+      internalID: -682374272905197745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 750
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06abab54a5bfeb6e0800000000000000
+      internalID: -1819740834275607968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_4
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 750
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a0b30760768aa80800000000000000
+      internalID: -8455395023037724075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_5
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 750
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daee8e8918f5eef0800000000000000
+      internalID: -79384629759513896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 758
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f514cefeda08340800000000000000
+      internalID: 4864078843532631946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 717
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae21f77222c2b620800000000000000
+      internalID: 2788504572592729761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_8
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 709
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65163edaa07489c40800000000000000
+      internalID: 5519239454535147862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_9
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 717
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e37423a6ec4e0180800000000000000
+      internalID: -9147289239679634460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 676
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9957eb3974cf0e0800000000000000
+      internalID: -2234832615201465923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 676
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e604434fa8ef250800000000000000
+      internalID: 5980370136647888524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 676
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df5ddf5067fd7a30800000000000000
+      internalID: 4214796819585916884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 685
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c8031868e2e5af0800000000000000
+      internalID: -405835761188828068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_14
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 685
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2829e460448efea0800000000000000
+      internalID: -5837082654919808980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 218
+        width: 820
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad175e9336f43290800000000000000
+      internalID: -7911427943822844501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 652
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5650640cc689710c0800000000000000
+      internalID: -4605044501113338523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_17
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 652
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc990c1a10739fe50800000000000000
+      internalID: 6843561588914428365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_18
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 652
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a176fb90fcac350800000000000000
+      internalID: 6037865891216431737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_19
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 578
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11229721b33d799b0800000000000000
+      internalID: -5073354204543114735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_20
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 521
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d43b09e34ba0b080800000000000000
+      internalID: -9173644132792716072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_21
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 497
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76852c15af3175970800000000000000
+      internalID: 8743479167397550183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 456
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cd48b5289282220800000000000000
+      internalID: 2461262836215897227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_23
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 407
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a2f44e2e78c4dc0800000000000000
+      internalID: -3653395789141562861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_24
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 407
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a344db470b532ae0800000000000000
+      internalID: -1575315357754440793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_25
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 341
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d783dc2bbd1cad30800000000000000
+      internalID: 4443959622055987161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_26
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 325
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea6572ca31351cf0800000000000000
+      internalID: -282265273200448787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 260
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a3df24f2faef1d0800000000000000
+      internalID: -3315019658175890847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_28
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 227
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6a39b1fc2830e90800000000000000
+      internalID: -7060655964754303267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 203
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff68dc4363a7fe1e0800000000000000
+      internalID: -2166378522509211905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_30
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 211
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83bd02307b747c30800000000000000
+      internalID: 4356242461380424590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 203
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d91c6c0b59c54dd0800000000000000
+      internalID: -2502372625046824496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_32
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 203
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710014afa636d0b80800000000000000
+      internalID: -8426970016624082921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 194
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b8e1fd0f59ab600800000000000000
+      internalID: 484864771663760183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 194
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5259f6465cfa13aa0800000000000000
+      internalID: -6182967551074527963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_35
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 186
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2266f0c40725b9b40800000000000000
+      internalID: 5448038816500639266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_36
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 129
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e755c755b1318da0800000000000000
+      internalID: -5944415378220951581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_37
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcae45c857b9ecd50800000000000000
+      internalID: 6759511019897547467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_38
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8100696aec949a2a0800000000000000
+      internalID: -6725763416594186216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a5084fed1669b50800000000000000
+      internalID: 6599569914170727069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_40
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7d62b942a605370800000000000000
+      internalID: 8309258017952946101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_41
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 96
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba471b5f76458770800000000000000
+      internalID: 8612367375218985657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 135
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c5829e3442d12a0800000000000000
+      internalID: -6765211191147471821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_43
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed5f2012d6e68db0800000000000000
+      internalID: -4789887363772883483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_44
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69ebfee8f9b15a70800000000000000
+      internalID: 8814030424553285994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_45
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717e4a74e69508930800000000000000
+      internalID: 4143409987364120343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_46
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 56
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27adbf5bb182bb410800000000000000
+      internalID: 1493831800885860978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_47
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfeb02e9effc67c0800000000000000
+      internalID: -4076602182692245556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_48
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 56
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab28de1417b8108f0800000000000000
+      internalID: -576025958773062982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_49
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39fc9b223021bb60800000000000000
+      internalID: 7760019032788236604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_50
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb9fbb361c610620800000000000000
+      internalID: 2738588891165465571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoRana_51
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2701c364d467a1070800000000000000
+      internalID: 8077898955905306738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoRana_0: 5993182667690945438
+      LogoRana_1: -1215162264568500635
+      LogoRana_10: -2234832615201465923
+      LogoRana_11: 5980370136647888524
+      LogoRana_12: 4214796819585916884
+      LogoRana_13: -405835761188828068
+      LogoRana_14: -5837082654919808980
+      LogoRana_15: -7911427943822844501
+      LogoRana_16: -4605044501113338523
+      LogoRana_17: 6843561588914428365
+      LogoRana_18: 6037865891216431737
+      LogoRana_19: -5073354204543114735
+      LogoRana_2: -682374272905197745
+      LogoRana_20: -9173644132792716072
+      LogoRana_21: 8743479167397550183
+      LogoRana_22: 2461262836215897227
+      LogoRana_23: -3653395789141562861
+      LogoRana_24: -1575315357754440793
+      LogoRana_25: 4443959622055987161
+      LogoRana_26: -282265273200448787
+      LogoRana_27: -3315019658175890847
+      LogoRana_28: -7060655964754303267
+      LogoRana_29: -2166378522509211905
+      LogoRana_3: -1819740834275607968
+      LogoRana_30: 4356242461380424590
+      LogoRana_31: -2502372625046824496
+      LogoRana_32: -8426970016624082921
+      LogoRana_33: 484864771663760183
+      LogoRana_34: -6182967551074527963
+      LogoRana_35: 5448038816500639266
+      LogoRana_36: -5944415378220951581
+      LogoRana_37: 6759511019897547467
+      LogoRana_38: -6725763416594186216
+      LogoRana_39: 6599569914170727069
+      LogoRana_4: -8455395023037724075
+      LogoRana_40: 8309258017952946101
+      LogoRana_41: 8612367375218985657
+      LogoRana_42: -6765211191147471821
+      LogoRana_43: -4789887363772883483
+      LogoRana_44: 8814030424553285994
+      LogoRana_45: 4143409987364120343
+      LogoRana_46: 1493831800885860978
+      LogoRana_47: -4076602182692245556
+      LogoRana_48: -576025958773062982
+      LogoRana_49: 7760019032788236604
+      LogoRana_5: -79384629759513896
+      LogoRana_50: 2738588891165465571
+      LogoRana_51: 8077898955905306738
+      LogoRana_6: 4864078843532631946
+      LogoRana_7: 2788504572592729761
+      LogoRana_8: 5519239454535147862
+      LogoRana_9: -9147289239679634460
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

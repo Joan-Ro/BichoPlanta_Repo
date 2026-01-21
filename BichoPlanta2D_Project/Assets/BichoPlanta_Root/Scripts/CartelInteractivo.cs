@@ -11,6 +11,8 @@ public class CartelInteractivo : MonoBehaviour
     [Header("UI")]
     public GameObject panelTexto;
     public Text textoUI;
+
+    // Aquí el indicador será tu sprite animado
     public GameObject indicadorInteractuar;
 
     [Header("Efecto de escritura")]
@@ -92,7 +94,7 @@ public class CartelInteractivo : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             puedeInteractuar = true;
-            indicadorInteractuar.SetActive(true);
+            indicadorInteractuar.SetActive(true); // <--- aparece el sprite animado
         }
     }
 
@@ -101,7 +103,7 @@ public class CartelInteractivo : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             puedeInteractuar = false;
-            indicadorInteractuar.SetActive(false);
+            indicadorInteractuar.SetActive(false); // <--- desaparece el sprite animado
             panelTexto.SetActive(false);
 
             if (escritura != null)
@@ -111,5 +113,6 @@ public class CartelInteractivo : MonoBehaviour
         }
     }
 }
+
 
 
