@@ -13,7 +13,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("Ataque")]
-    public GameObject lenguaCollider;  
+    public GameObject lenguaCollider;
+    public float tiempoLengua = 0.3f;
 
     Rigidbody2D rb;
     Animator anim;
@@ -25,71 +26,64 @@ public class PlayerController : MonoBehaviour
 
     float moveInput;
     bool isGrounded;
-
     Vector3 originalScale;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
         originalScale = transform.localScale;
 
+        // Buscar acciones (tu sistema original)
         moveAction = InputSystem.actions.FindAction("Move");
         jumpingAction = InputSystem.actions.FindAction("Jumping");
         attackAction = InputSystem.actions.FindAction("Attack");
         hitAction = InputSystem.actions.FindAction("Hit");
 
+        // Suscribir eventos (tu sistema original)
         if (jumpingAction != null)
             jumpingAction.performed += OnJump;
-
         if (attackAction != null)
             attackAction.performed += OnAttack;
-
         if (hitAction != null)
             hitAction.performed += OnHit;
     }
 
     void OnEnable()
     {
-        moveAction?.Enable();
-        jumpingAction?.Enable();
-        attackAction?.Enable();
-        hitAction?.Enable();
+        if (moveAction != null) moveAction.Enable();
+        if (jumpingAction != null) jumpingAction.Enable();
+        if (attackAction != null) attackAction.Enable();
+        if (hitAction != null) hitAction.Enable();
     }
 
     void OnDisable()
     {
-        moveAction?.Disable();
-        jumpingAction?.Disable();
-        attackAction?.Disable();
-        hitAction?.Disable();
+        if (moveAction != null) moveAction.Disable();
+        if (jumpingAction != null) jumpingAction.Disable();
+        if (attackAction != null) attackAction.Disable();
+        if (hitAction != null) hitAction.Disable();
     }
 
     void Update()
     {
+        // Movimiento (tu sistema original)
         moveInput = 0f;
-
         if (moveAction != null)
-        {
             moveInput = moveAction.ReadValue<float>();
-        }
-
         if (Mathf.Abs(moveInput) < 0.01f)
-        {
             moveInput = Input.GetAxisRaw("Horizontal");
-        }
 
+        // Ground check
         if (groundCheck != null)
-        {
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
-        }
 
+        // Animaciones
         bool isRunning = Mathf.Abs(moveInput) > 0.01f;
-
         anim.SetBool("Running", isRunning);
         anim.SetBool("Jumping", !isGrounded);
 
+        // Flip (tu sistema original)
         if (isRunning)
         {
             if (moveInput > 0f)
@@ -104,17 +98,17 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
+    // Tus métodos originales
     void OnJump(InputAction.CallbackContext ctx)
     {
         if (isGrounded)
-        {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
     }
 
     void OnAttack(InputAction.CallbackContext ctx)
     {
         anim.SetTrigger("Attack");
+        ActivarLengua(); // ¡NUEVO!
     }
 
     void OnHit(InputAction.CallbackContext ctx)
@@ -122,33 +116,20 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Hit");
     }
 
-        public void ActivarLengua()
+    // LENGUA (nuevo)
+    public void ActivarLengua()
     {
         if (lenguaCollider != null)
         {
             lenguaCollider.SetActive(true);
-            Debug.Log("¡Lengua ACTIVADA!");
+            Invoke("DesactivarLengua", tiempoLengua);
         }
     }
 
     public void DesactivarLengua()
     {
         if (lenguaCollider != null)
-        {
             lenguaCollider.SetActive(false);
-            Debug.Log("¡Lengua DESACTIVADA!");
-        }
-    }
-
-    // Cuando la lengua toca enemigo
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Enemy"))
-        {
-            Debug.Log("¡ENEMIGO GOLPEADO! " + other.name);
-            // Aquí quitas vida al enemigo
-            // other.GetComponent<EnemyHealth>().TakeDamage(1);
-        }
     }
 
     void OnDrawGizmosSelected()
@@ -158,7 +139,3 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
     }
 }
-
-
-
-
