@@ -1,4 +1,4 @@
-using UnityEngine;
+    using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("UI Vida")]
     public Image barraVida;
 
-    [Header("PickUps")]
+    [Header("PickUp")]
     public int monedas = 0;
 
     [Header("UI Monedas")]
@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
         ActualizarTextoMonedas();
     }
 
-    // Método público para recibir daño
+    // Mï¿½todo pï¿½blico para recibir daï¿½o
     public void RecibirDanio(int danio)
     {
         vidasActuales -= danio;
@@ -51,11 +51,11 @@ public class PlayerHealth : MonoBehaviour
     void Morir()
     {
         Debug.Log("Jugador muerto");
-        // Aquí puedes hacer respawn, reiniciar nivel o reproducir animación
+        // Aquï¿½ puedes hacer respawn, reiniciar nivel o reproducir animaciï¿½n
         // Destroy(gameObject);
     }
 
-    // Método para recoger monedas
+    // Mï¿½todo para recoger monedas
     public void RecogerMoneda()
     {
         monedas++;
