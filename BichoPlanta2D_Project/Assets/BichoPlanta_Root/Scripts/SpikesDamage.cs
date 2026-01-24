@@ -1,15 +1,15 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class SpikeDamage : MonoBehaviour
+public class SpikesDamage : MonoBehaviour
 {
-    public int danio = 3; // daño fijo
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerHealth player = collision.GetComponent<PlayerHealth>();
-        if (player != null)
+        if (other.CompareTag("Player"))
         {
-            player.RecibirDanio(danio);
+            SceneManager.LoadScene(
+                SceneManager.GetActiveScene().buildIndex
+            );
         }
     }
 }
