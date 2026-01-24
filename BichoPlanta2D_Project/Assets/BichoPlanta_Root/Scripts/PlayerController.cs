@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Vida")]
+    public PlayerHealth playerHealth; // Asignar en Inspector
+
     [Header("Movimiento")]
     public float moveSpeed = 5f;
     public float jumpForce = 8f;
