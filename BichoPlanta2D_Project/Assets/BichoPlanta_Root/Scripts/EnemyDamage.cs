@@ -3,12 +3,14 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     [Header("Daño al jugador")]
-    public int danio = 1; // configurable en Inspector
+    public int danio = 1;
 
     [Header("Animaciones")]
     public Animator animator;
 
     private bool estaMuerto = false;
+    private float ultimoDaño = 0f;
+    public float tiempoEntreDaños = 1f;
 
     void Start()
     {
@@ -16,15 +18,20 @@ public class EnemyDamage : MonoBehaviour
             animator = GetComponent<Animator>();
     }
 
-    // Método que se llama cuando el jugador toca al enemigo
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)  // O OnTriggerStay2D si trigger
     {
-        if (estaMuerto) return;
+        if (estaMuerto || Time.time < ultimoDaño + tiempoEntreDaños) return;
 
-        PlayerHealth player = collision.gameObject.GetComponent<PlayerHealth>();
-        if (player != null)
+        Collider2D col = collision.collider;
+        if (col.CompareTag("Player") && col.name != "TongueCollider")  // Ignora lengua por nombre
         {
-            player.RecibirDanio(danio);
+            PlayerHealth playerHealth = col.GetComponent<PlayerHealth>();  // O tu script de vida
+            if (playerHealth != null)
+            {
+                playerHealth.RecibirDanio(danio);
+                ultimoDaño = Time.time;
+                Debug.Log("Daño a jugador desde enemigo");
+            }
         }
     }
 

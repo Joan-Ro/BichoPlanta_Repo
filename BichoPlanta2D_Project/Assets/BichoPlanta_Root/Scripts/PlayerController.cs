@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Hit");
     }
 
-    // 🔥 ANIMATION EVENT (ESTE ES EL IMPORTANTE)
+   
     public void OnAttack()
     {
         ActivarLengua();
@@ -119,15 +119,21 @@ public class PlayerController : MonoBehaviour
         if (lenguaCollider != null)
         {
             lenguaCollider.SetActive(true);
-            Invoke(nameof(DesactivarLengua), tiempoLengua);
+            Debug.Log("Lengua ACTIVADA");
+            Invoke("DesactivarLengua", tiempoLengua);
         }
     }
 
     public void DesactivarLengua()
     {
         if (lenguaCollider != null)
+        {
             lenguaCollider.SetActive(false);
+            Debug.Log("Lengua DESACTIVADA");
+        }
     }
+
+
 
     void OnDrawGizmosSelected()
     {
