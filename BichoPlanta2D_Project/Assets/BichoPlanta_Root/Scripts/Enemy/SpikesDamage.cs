@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SpikesDamage : MonoBehaviour
 {
@@ -7,9 +6,11 @@ public class SpikesDamage : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(
-                SceneManager.GetActiveScene().buildIndex
-            );
+            PlayerRespawn respawn = other.GetComponent<PlayerRespawn>();
+            if (respawn != null)
+            {
+                respawn.Morir();
+            }
         }
     }
 }
