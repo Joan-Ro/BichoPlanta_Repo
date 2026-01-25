@@ -1,82 +1,67 @@
 using UnityEngine;
 
-public class EnemyPatroLvl3 : MonoBehaviour, IDanable
+using UnityEngine;
+
+public class EnemyPatroLvl3 : MonoBehaviour
 {
     [Header("Movimiento")]
     public float velocidad = 1.5f;
-    public float puntoIzquierdo = -3f;
-    public float puntoDerecho = 3f;
+    public float minX;
+    public float maxX;
 
     [Header("Vida")]
-    public int vidaMaxima = 1;
+    public int vida = 1;
 
-    private int vidaActual;
-    private Animator animator;
     private bool moviendoDerecha = true;
-    private bool estaMuerto = false;
+    private bool muerto = false;
+
+    private Animator anim;
 
     void Start()
     {
-        animator = GetComponent<Animator>();
-
-        if (animator == null)
-        {
-            Debug.LogError("¡No hay Animator en el enemigo!");
-            return;
-        }
-
-        vidaActual = vidaMaxima;
-
-        animator.applyRootMotion = false;
-        animator.SetBool("Walk", true);
-
-        if (moviendoDerecha && transform.localScale.x > 0)
-            Flip();
+        anim = GetComponent<Animator>();
+        anim.SetBool("Walk", true);
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        if (estaMuerto) return;
+        if (muerto) return;
 
-        Patrullar();
+        Mover();
     }
 
-    void Patrullar()
+    void Mover()
     {
         float direccion = moviendoDerecha ? 1f : -1f;
-        Vector3 nuevaPos = transform.position;
-        nuevaPos.x += direccion * velocidad * Time.fixedDeltaTime;
+        transform.position += Vector3.right * direccion * velocidad * Time.deltaTime;
 
-        if (moviendoDerecha && nuevaPos.x >= puntoDerecho)
+        if (moviendoDerecha && transform.position.x >= maxX)
         {
-            Flip();
+            Girar();
             moviendoDerecha = false;
-            nuevaPos.x = puntoDerecho;
         }
-        else if (!moviendoDerecha && nuevaPos.x <= puntoIzquierdo)
+        else if (!moviendoDerecha && transform.position.x <= minX)
         {
-            Flip();
+            Girar();
             moviendoDerecha = true;
-            nuevaPos.x = puntoIzquierdo;
         }
-
-        transform.position = nuevaPos;
     }
 
-    void Flip()
+    void Girar()
     {
         Vector3 escala = transform.localScale;
         escala.x *= -1;
         transform.localScale = escala;
     }
 
+    // 💥 DAÑO
     public void RecibirDanio(int danio)
     {
-        if (estaMuerto) return;
+        if (muerto) return;
 
-        vidaActual -= danio;
+        vida -= danio;
 
-        if (vidaActual <= 0)
+        if (vida <= 0)
         {
             Morir();
             Collider2D col = GetComponentInChildren<Collider2D>();
@@ -88,22 +73,15 @@ public class EnemyPatroLvl3 : MonoBehaviour, IDanable
 
     void Morir()
     {
-        estaMuerto = true;
-
-        animator.SetBool("Walk", false);
-        animator.SetTrigger("Death");
-
-        Collider2D col = GetComponent<Collider2D>();
-        if (col != null)
-            col.enabled = false;
+        muerto = true;
+        anim.SetBool("Walk", false);
+        anim.SetTrigger("Death");
     }
 
-    // Llamar desde Animation Event
+    // 🎬 Animation Event
     public void DestruirEnemigo()
     {
         Destroy(gameObject);
     }
 }
-
-
 

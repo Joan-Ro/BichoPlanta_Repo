@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemySerpiente : MonoBehaviour, IDanable
+public class EnemySerpiente : MonoBehaviour
 {
     [Header("Movimiento")]
     public float velocidad = 1.5f;
