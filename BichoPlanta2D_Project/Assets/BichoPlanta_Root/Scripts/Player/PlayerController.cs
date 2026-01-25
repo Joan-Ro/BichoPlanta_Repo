@@ -108,7 +108,12 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Hit");
     }
 
+<<<<<<< HEAD:BichoPlanta2D_Project/Assets/BichoPlanta_Root/Scripts/Player/PlayerController.cs
         public void OnAttack()
+=======
+   
+    public void OnAttack()
+>>>>>>> 1b31f149d41f81d1a25f1b08275670ccfd1fb2ea:BichoPlanta2D_Project/Assets/BichoPlanta_Root/Scripts/PlayerController.cs
     {
         ActivarLengua();
     }
@@ -118,15 +123,21 @@ public class PlayerController : MonoBehaviour
         if (lenguaCollider != null)
         {
             lenguaCollider.SetActive(true);
-            Invoke(nameof(DesactivarLengua), tiempoLengua);
+            Debug.Log("Lengua ACTIVADA");
+            Invoke("DesactivarLengua", tiempoLengua);
         }
     }
 
     public void DesactivarLengua()
     {
         if (lenguaCollider != null)
+        {
             lenguaCollider.SetActive(false);
+            Debug.Log("Lengua DESACTIVADA");
+        }
     }
+
+
 
     void OnDrawGizmosSelected()
     {
