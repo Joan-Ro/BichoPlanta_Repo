@@ -1,4 +1,4 @@
-    using UnityEngine;
+   using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
         ActualizarTextoMonedas();
     }
 
-    // M�todo p�blico para recibir da�o
+    // Método público para recibir daño
     public void RecibirDanio(int danio)
     {
         vidasActuales -= danio;
@@ -49,16 +49,32 @@ public class PlayerHealth : MonoBehaviour
     }
 
     void Morir()
+{
+    GetComponent<PlayerRespawn>().Morir();
+}
+
+    // Detecta PickUPs
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Jugador muerto");
-        // Aqu� puedes hacer respawn, reiniciar nivel o reproducir animaci�n
-        // Destroy(gameObject);
+        if (other.CompareTag("PickUP"))
+        {
+            RecogerMoneda();
+            Destroy(other.gameObject);
+        }
     }
 
-    // M�todo para recoger monedas
+    // Método para recoger monedas
     public void RecogerMoneda()
     {
         monedas++;
         ActualizarTextoMonedas();
     }
+
+    public void ReiniciarVida()
+{
+    vidasActuales = vidasMaximas;
+    ActualizarBarra();
 }
+
+}
+
