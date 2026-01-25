@@ -1,8 +1,6 @@
 using UnityEngine;
 
-using UnityEngine;
-
-public class EnemyPatroLvl3 : MonoBehaviour
+public class EnemySerpiente : MonoBehaviour
 {
     [Header("Movimiento")]
     public float velocidad = 1.5f;
@@ -64,10 +62,6 @@ public class EnemyPatroLvl3 : MonoBehaviour
         if (vida <= 0)
         {
             Morir();
-            Collider2D col = GetComponentInChildren<Collider2D>();
-            if (col != null)
-                col.enabled = false;
-
         }
     }
 

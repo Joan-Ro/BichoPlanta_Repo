@@ -108,7 +108,8 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Hit");
     }
 
-        public void OnAttack()
+    // 🔥 ANIMATION EVENT (ESTE ES EL IMPORTANTE)
+    public void OnAttack()
     {
         ActivarLengua();
     }
